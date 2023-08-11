@@ -29,13 +29,13 @@
   flex-shrink: 0;
 }
 .homepage1-axon1 {
-    position: fixed;  /* Fix the position of the image */
-    top: 0;           /* Align image to the top of the viewport */
-    left: 0;          /* Align image to the left of the viewport */
-    width: 100vw;     /* Set width to 100% of the viewport width */
-    height: 100vh;    /* Set height to 100% of the viewport height */
-    object-fit: cover; /* This will ensure that the image covers the entire viewport without distorting its aspect ratio */
-    z-index: -1;      /* This will ensure the image stays behind your other content */
+    position: fixed;  
+    top: 0;           
+    left: 0;          
+    width: 100vw;     
+    height: 100vh;    
+    object-fit: cover; 
+    z-index: -1;      
 }
 
 .homepage1-resume1 {
@@ -173,25 +173,25 @@
   align-items: flex-start;
 }
 .homepage1-text14 {
-  color: var(--dl-color-default-darkgrey);
+  color: black;
   height: auto;
   text-align: left;
   line-height: normal;
 }
 .homepage1-text16 {
-  color: var(--dl-color-default-darkgrey);
+  color: black;
   height: auto;
   text-align: left;
   line-height: normal;
 }
 .homepage1-text18 {
-  color: var(--dl-color-default-darkgrey);
+  color: black;
   height: auto;
   text-align: left;
   line-height: normal;
 }
 .homepage1-text20 {
-  color: var(--dl-color-default-darkgrey);
+  color: black;
   height: auto;
   text-align: left;
   line-height: normal;
@@ -202,7 +202,7 @@
   align-items: flex-start;
 }
 .homepage1-text22 {
-  color: var(--dl-color-default-darkgrey);
+  color: black;
   height: auto;
   text-align: left;
   line-height: normal;
