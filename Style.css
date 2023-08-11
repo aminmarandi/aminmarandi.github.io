@@ -225,3 +225,42 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+.HeadingText {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Regular {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+/* Hide nav toggle button on larger screens */
+.nav-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Display the toggle button on smaller screens */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Hide the navigation items by default on smaller screens */
+  .nav-menu-container {
+    display: none;
+  }
+
+  /* Show the navigation items when 'active' class is present */
+  .nav-menu-container.active {
+    display: block;
+  }
+}
