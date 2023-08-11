@@ -1,0 +1,224 @@
+.homepage1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.homepage1-homepage {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: bold
+}
+.homepage1-section3 {
+  top: 2234px;
+  left: 0px;
+  width: 1728px;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage1-axon1 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 1152px;
+  position: absolute;
+}
+.homepage1-resume1 {
+  top: 0px;
+  left: -29px;
+  width: 1787px;
+  height: 1117px;
+  position: absolute;
+}
+.homepage1-section2 {
+  top: 1117px;
+  left: 0px;
+  width: 1728px;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage1-p11 {
+  top: 45px;
+  left: 43px;
+  width: 1642px;
+  height: 1027px;
+  position: absolute;
+}
+.homepage1-p12 {
+  top: 45px;
+  left: 43px;
+  width: 1644px;
+  height: 1027px;
+  position: absolute;
+}
+.homepage1-section1 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage1-axon11 {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 1152px;
+  position: absolute;
+}
+.homepage1-heading {
+  gap: 12px;
+  top: 810px;
+  left: 0px;
+  width: 343px;
+  display: flex;
+  padding: 0 40px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homepage1-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-text05 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-cta {
+  gap: 24px;
+  top: 1000px;
+  left: 541px;
+  width: 646px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.homepage1-button {
+  gap: 10px;
+  width: 311px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: Black;
+}
+.homepage1-text12 {
+  color: White;
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-header {
+  gap: 500px;
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  display: flex;
+  padding: 20px 40px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.homepage1-logo {
+  width: 200px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage1-logo11 {
+  top: -8.25px;
+  left: 0px;
+  width: 200px;
+  height: 34px;
+  position: absolute;
+}
+.homepage1-menu {
+  gap: 28px;
+  display: flex;
+  align-items: flex-start;
+}
+.homepage1-text14 {
+  color: var(--dl-color-default-darkgrey);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-text16 {
+  color: var(--dl-color-default-darkgrey);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-text18 {
+  color: var(--dl-color-default-darkgrey);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-text20 {
+  color: var(--dl-color-default-darkgrey);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.homepage1-menu1 {
+  gap: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.homepage1-text22 {
+  color: var(--dl-color-default-darkgrey);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #000; /* Set this to your preferred color or keep it transparent */
+    color: #FFF; /* Text color. Change if needed. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
